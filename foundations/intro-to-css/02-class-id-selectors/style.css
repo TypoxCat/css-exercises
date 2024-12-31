@@ -1,0 +1,21 @@
+/* use . for class and # for ids */
+
+.odd{
+    background-color: rgb(255, 144, 144);
+    font-family: Verdana, 'DejaVu Sans' 'sans-serif';
+}
+
+#second{
+    color: #1a1afe;
+    font-size: 36px;
+}
+
+.font-size{
+    font-size: 24px;
+}
+
+#fourth{
+    background-color: hsl(120, 100%, 85%);
+    font-size: 24px;
+    font-weight: bold;
+}
