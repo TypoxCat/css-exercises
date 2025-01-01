@@ -5,23 +5,45 @@ body {
 
 .card {
   width: 400px;
+  display: block;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  /* marbot due to default h1 style gave too much margin */
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* better one:
+  padding: 16px 8px */
 }
 
 .button-container {
   background: #e3f4ff;
+  margin-top: 8px;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  font-size: 13px;
+  /* font-size was not necessary, but it was just looked odd to me */
+  height: 30px;
+  width: 124px;
+  /* better one:
+  padding: 8px 24px */
 }
