@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -41,8 +44,29 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
+
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding-left: 16px;
+  margin: 0px;
+  gap: 16px;
+  flex: 1;
 }
+
+.profile-image {
+  margin-left: 16px;
+}
+
+
+/* The solution add new class to divide left and right. I did flex:1; in ul instead idk but it works
+The difference is when I shrink it my notif wont shrink
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+ */
